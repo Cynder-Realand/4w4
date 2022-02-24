@@ -18,4 +18,14 @@
     display: flex;
     flex-direction: column;
     margin-left: auto;
+
+      &__liens{
+        display: flex;
+        a{
+
+          svg{
+            color:red;
+          }
+        }
+      }
   }
