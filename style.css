@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*
-theme name: lab-4 gr3 eddy martin
-Author: Eddy martin
+theme name: Exercise-2-Kyndra-Dess
+Author: Kyndra Dess
 Author URI: https://github.com/eddytuto
 Description: Ce thème servira de base de développement pour l'ensemble du cours 4W4. Chacune des étapes de développement se retrouvera sur gitHub à l'adresse: https://github.com/eddytuto/2022-4w4
 Version: 1.0.0
@@ -473,6 +473,7 @@ COMPOSANTES
 }
 
 .site__header {
+  display: flex;
   background-color: #6faee2;
   color: #fa9292;
   padding-left: 10px;
@@ -488,10 +489,20 @@ COMPOSANTES
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+.util {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+}
+
 #burger {
   position: absolute;
   transition: transform .3s;
   transform: rotate(0);
+}
+
+#chk-burger {
+  display: none;
 }
 
 #chk-burger:checked ~ #burger {
@@ -572,6 +583,32 @@ COMPOSANTES
 .footer__author {
   color: #ffcabc;
   text-align: center;
+}
+
+.error-404 h1 {
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.recherche {
+  display: flex;
+  background-color: wheat;
+  width: 300px;
+  position: relative;
+}
+
+.recherche__input {
+  background-color: transparent;
+  width: 100%;
+}
+
+.recherche__button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* ---------------------------------------------------------
