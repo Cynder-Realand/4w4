@@ -347,15 +347,15 @@ html {
 ÉLÉMENTS
 --------------------------------------------------------- */
 a {
-  color: #7b5647;
+  color: #3D596D;
 }
 
 a:visited {
-  color: #5c4033;
+  color: #12110D;
 }
 
 a:hover, a:focus, a:active {
-  color: white;
+  color: #33435A;
 }
 
 a:focus {
@@ -367,15 +367,15 @@ a:hover, a:active {
 }
 
 .site__footer a {
-  color: #f40b0b;
+  color: #B19C9B;
 }
 
 .site__footer a:visited {
-  color: #1435eb;
+  color: #12110D;
 }
 
 .site__footer a:hover, .site__footer a:focus, .site__footer a:active {
-  color: #19e123;
+  color: #AB9892;
 }
 
 .site__footer a:focus {
@@ -387,15 +387,15 @@ a:hover, a:active {
 }
 
 .header__titre a {
-  color: #f06a6a;
+  color: #F65C44;
 }
 
 .header__titre a:visited {
-  color: #7a49d4;
+  color: #621F27;
 }
 
 .header__titre a:hover, .header__titre a:focus, .header__titre a:active {
-  color: #8be58f;
+  color: #FFF8D9;
 }
 
 .header__titre a:focus {
@@ -411,7 +411,7 @@ COMPOSANTES
 --------------------------------------------------------- */
 .site__main {
   padding: 10px 15px;
-  background-color: #d5e6f1;
+  background-color: #526981;
   border-radius: 5px;
   box-shadow: #39443e 1px -1px 10px;
 }
@@ -423,7 +423,7 @@ COMPOSANTES
 
 .formation__titre {
   font-size: 2rem;
-  color: #ebcac1;
+  color: #33435A;
   margin: 10px 0px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
@@ -434,7 +434,7 @@ COMPOSANTES
 }
 
 .formation__cours {
-  background-color: #d1e9ff;
+  background-color: #FEC1A2;
   box-shadow: #394044 1px -1px 10px;
   border-radius: 5px;
   margin: 10px;
@@ -458,7 +458,7 @@ COMPOSANTES
 
 .cours__titre {
   font-size: 1.5rem;
-  color: #ebcac1;
+  color: #33435A;
   margin: 5px 0px;
 }
 
@@ -474,8 +474,8 @@ COMPOSANTES
 
 .site__header {
   display: flex;
-  background-color: #6faee2;
-  color: #fa9292;
+  background-color: #A42219;
+  color: #FFF8D9;
   padding-left: 10px;
 }
 
@@ -540,11 +540,11 @@ COMPOSANTES
   display: block;
   text-decoration: none;
   padding: 4px;
-  background-color: #8293e3;
+  background-color: #FF7D75;
 }
 
 .menu-item a:hover {
-  background-color: #2832b8;
+  background-color: #F07667;
 }
 
 @media screen and (min-width: 800px) {
@@ -557,8 +557,31 @@ COMPOSANTES
 }
 
 .site__footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.site__footer__colonne {
+  display: flex;
+  justify-content: space-between;
+}
+
+.site__footer__colonne section {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  flex: 0 0 30%;
+}
+
+.site__footer__ligne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.site__footer {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  background-color: #07143b;
+  background-color: #621F27;
   padding: 15px;
 }
 
@@ -579,17 +602,17 @@ COMPOSANTES
 }
 
 .site__footer__menu__ul .menu-item a svg {
-  color: #f40b0b;
+  color: #B19C9B;
 }
 
 .site__footer__menu__ul .menu-item a:hover svg {
-  color: #19e123;
+  color: #AB9892;
 }
 
 .footer__titre,
 .footer__presentation,
 .footer__author {
-  color: #ffcabc;
+  color: #A18486;
   text-align: center;
 }
 
@@ -660,28 +683,42 @@ LAYOUT
 theme name: Lab 2 Lemieux Florence
 */
 .site {
-  background-color: #dae0f1;
+  background-color: #FFB28F;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.home::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  background-color: #526981;
+  z-index: -1;
 }
 
 .site__header {
   grid-area: header;
-  background-color: #6faee2;
+  background-color: rgba(164, 34, 25, 0.5);
 }
 
 .site__barre {
   grid-area: sidebar;
-  background-color: #051d29;
+  background-color: #F07667;
 }
 
 .site__main {
   grid-area: main;
-  background-color: #d5e6f1;
+  background-color: rgba(82, 105, 129, 0.5);
 }
 
 .site__footer {
   grid-area: footer;
-  background-color: #07143b;
+  background-color: #621F27;
 }
 
 .site {
