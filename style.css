@@ -2,8 +2,8 @@
 /*
 theme name: Exercise-2-Kyndra-Dess
 Author: Kyndra Dess
-Author URI: https://github.com/eddytuto
-Description: Ce thème servira de base de développement pour l'ensemble du cours 4W4. Chacune des étapes de développement se retrouvera sur gitHub à l'adresse: https://github.com/eddytuto/2022-4w4
+Author URI: https://github.com/Cynder-Realand/4w4
+Description: Ce thème servira de base de développement pour l'ensemble du cours 4W4. Chacune des étapes de développement se retrouvera sur gitHub à l'adresse:https://github.com/Cynder-Realand/4w4
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
@@ -347,15 +347,15 @@ html {
 ÉLÉMENTS
 --------------------------------------------------------- */
 a {
-  color: #3D596D;
+  color: #FF2C91;
 }
 
 a:visited {
-  color: #12110D;
+  color: #030212;
 }
 
 a:hover, a:focus, a:active {
-  color: #33435A;
+  color: #FCC5FE;
 }
 
 a:focus {
@@ -367,15 +367,15 @@ a:hover, a:active {
 }
 
 .site__footer a {
-  color: #B19C9B;
+  color: #B400C6;
 }
 
 .site__footer a:visited {
-  color: #12110D;
+  color: #7B02CB;
 }
 
 .site__footer a:hover, .site__footer a:focus, .site__footer a:active {
-  color: #AB9892;
+  color: #8904CD;
 }
 
 .site__footer a:focus {
@@ -391,11 +391,11 @@ a:hover, a:active {
 }
 
 .header__titre a:visited {
-  color: #621F27;
+  color: #B400C6;
 }
 
 .header__titre a:hover, .header__titre a:focus, .header__titre a:active {
-  color: #FFF8D9;
+  color: #FFB28F;
 }
 
 .header__titre a:focus {
@@ -411,7 +411,7 @@ COMPOSANTES
 --------------------------------------------------------- */
 .site__main {
   padding: 10px 15px;
-  background-color: #526981;
+  background-color: #FFBEB0;
   border-radius: 5px;
   box-shadow: #39443e 1px -1px 10px;
 }
@@ -423,7 +423,7 @@ COMPOSANTES
 
 .formation__titre {
   font-size: 2rem;
-  color: #33435A;
+  color: #FCC5FE;
   margin: 10px 0px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
@@ -434,7 +434,7 @@ COMPOSANTES
 }
 
 .formation__cours {
-  background-color: #FEC1A2;
+  background-color: #FCC5FE;
   box-shadow: #394044 1px -1px 10px;
   border-radius: 5px;
   margin: 10px;
@@ -458,7 +458,7 @@ COMPOSANTES
 
 .cours__titre {
   font-size: 1.5rem;
-  color: #33435A;
+  color: #FCC5FE;
   margin: 5px 0px;
 }
 
@@ -474,7 +474,7 @@ COMPOSANTES
 
 .site__header {
   display: flex;
-  background-color: #A42219;
+  background-color: #7163C2;
   color: #FFF8D9;
   padding-left: 10px;
 }
@@ -500,7 +500,7 @@ COMPOSANTES
 }
 
 .util__liens a svg {
-  color: red;
+  color: #FF2C91;
 }
 
 #burger {
@@ -540,11 +540,11 @@ COMPOSANTES
   display: block;
   text-decoration: none;
   padding: 4px;
-  background-color: #FF7D75;
+  background-color: #FECEC0;
 }
 
 .menu-item a:hover {
-  background-color: #F07667;
+  background-color: #D96C94;
 }
 
 @media screen and (min-width: 800px) {
@@ -581,7 +581,7 @@ COMPOSANTES
 
 .site__footer {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  background-color: #621F27;
+  background-color: #0B2057;
   padding: 15px;
 }
 
@@ -602,17 +602,17 @@ COMPOSANTES
 }
 
 .site__footer__menu__ul .menu-item a svg {
-  color: #B19C9B;
+  color: #B400C6;
 }
 
 .site__footer__menu__ul .menu-item a:hover svg {
-  color: #AB9892;
+  color: #8904CD;
 }
 
 .footer__titre,
 .footer__presentation,
 .footer__author {
-  color: #A18486;
+  color: #FCC5FE;
   text-align: center;
 }
 
@@ -623,7 +623,7 @@ COMPOSANTES
 
 .recherche {
   display: flex;
-  background-color: wheat;
+  background-color: #D96C94;
   width: 300px;
   position: relative;
 }
@@ -643,7 +643,7 @@ COMPOSANTES
 }
 
 .recherche__button svg {
-  color: red;
+  color: #D96C94;
 }
 
 /* ---------------------------------------------------------
@@ -683,42 +683,28 @@ LAYOUT
 theme name: Lab 2 Lemieux Florence
 */
 .site {
-  background-color: #FFB28F;
+  background-color: #0B2057;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-
-.home::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-  background-color: #526981;
-  z-index: -1;
 }
 
 .site__header {
   grid-area: header;
-  background-color: rgba(164, 34, 25, 0.5);
+  background-color: #7163C2;
 }
 
 .site__barre {
   grid-area: sidebar;
-  background-color: #F07667;
+  background-color: #FECEC0;
 }
 
 .site__main {
   grid-area: main;
-  background-color: rgba(82, 105, 129, 0.5);
+  background-color: #FFBEB0;
 }
 
 .site__footer {
   grid-area: footer;
-  background-color: #621F27;
+  background-color: #0B2057;
 }
 
 .site {
