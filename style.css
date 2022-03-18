@@ -18,6 +18,11 @@ VARIABLES
 /* ---------------- LIENS FOOTER */
 /* ---------------- LIENS HEADER titre principal du site */
 /* ---------------- FONT */
+@font-face {
+  font-family: 'Italianno';
+  src: url(Italianno-Regular.ttf);
+}
+
 /* ------------------------------------- points de rupture des media queries */
 /* ---------------------------------------------------------
 INITIALISATION
@@ -391,7 +396,7 @@ a:hover, a:active {
 }
 
 .header__titre a:visited {
-  color: #B400C6;
+  color: #FCC5FE;
 }
 
 .header__titre a:hover, .header__titre a:focus, .header__titre a:active {
@@ -410,10 +415,27 @@ a:hover, a:active {
 COMPOSANTES
 --------------------------------------------------------- */
 .site__main {
+  font-family: "Italianno";
+  font-size: 30px;
+  color: #FFF;
   padding: 10px 15px;
   background-color: #FFBEB0;
   border-radius: 5px;
   box-shadow: #7B02CB 1px -1px 10px;
+}
+
+.article {
+  color: #FFF;
+  font-family: "Italianno";
+  font-size: 45px;
+  text-shadow: #FF2C91 3px -3px 5px;
+}
+
+.article__contenu {
+  font-family: "Times New Roman", Times, serif;
+  color: #FFF;
+  font-size: 20px;
+  text-shadow: #000 3px -3px 5px;
 }
 
 .principal h1 {
@@ -429,7 +451,7 @@ COMPOSANTES
   font-size: 2rem;
   color: #FFF;
   margin: 10px 0px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-family: "Italianno";
 }
 
 .formation__liste {
@@ -484,13 +506,13 @@ COMPOSANTES
 }
 
 .site__header .header__titre {
-  font-size: 3em;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 4em;
+  font-family: "Italianno";
 }
 
 .site__header .header__description {
   font-size: 1.5rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .util {
@@ -585,7 +607,7 @@ COMPOSANTES
 }
 
 .site__footer {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-family: "Italianno";
   background-color: #0B2057;
   padding: 15px;
 }
@@ -628,7 +650,7 @@ COMPOSANTES
 
 .recherche {
   display: flex;
-  background-color: #D96C94;
+  background-color: #FECEC0;
   width: 300px;
   position: relative;
 }
@@ -685,16 +707,16 @@ ANIMATION
 LAYOUT
 --------------------------------------------------------- */
 /*
-theme name: Lab 2 Lemieux Florence
+theme name: Sukuna Purple BG
 */
 .site {
   background-color: #0B2057;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .site__header {
   grid-area: header;
-  background-color: #7163C2;
+  background-color: rgba(113, 99, 194, 0.8);
 }
 
 .site__barre {
@@ -704,7 +726,7 @@ theme name: Lab 2 Lemieux Florence
 
 .site__main {
   grid-area: main;
-  background-color: #FFBEB0;
+  background-color: rgba(255, 190, 176, 0.55);
 }
 
 .site__footer {
