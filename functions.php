@@ -38,6 +38,36 @@ add_theme_support( 'custom-logo', array(
     'height' => 100,
     'width'  => 100,
 ) );
+
+$defaults = array(
+    'default-color'          => '',
+    'default-image'          => '',
+    'default-repeat'         => '',
+    'default-position-x'     => '',
+    'default-attachment'     => '',
+    'wp-head-callback'       => '_custom_background_cb',
+    'admin-head-callback'    => '',
+    'admin-preview-callback' => ''
+);
+add_theme_support( 'custom-background', $defaults );
+
+$headerDefaults = array(
+    'default-image'          => '',
+    'random-default'         => false,
+    'width'                  => 0,
+    'height'                 => 0,
+    'flex-height'            => false,
+    'flex-width'             => false,
+    'default-text-color'     => '',
+    'header-text'            => true,
+    'uploads'                => true,
+    'wp-head-callback'       => '',
+    'admin-head-callback'    => '',
+    'admin-preview-callback' => '',
+    'video'                  => false,
+    'video-active-callback'  => 'is_front_page',
+);
+add_theme_support( 'custom-header', $headerDefaults );
 }
 
 add_action('after_setup_theme', 'cidw_4w4_add_theme_support');

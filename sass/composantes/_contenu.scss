@@ -1,9 +1,13 @@
 .site__main {
     
     padding: 10px 15px;
-    background-color: $color__background-main;
+    background-color:$color__background-main;
     border-radius: 5px;
-    box-shadow: rgb(57, 68, 62) 1px -1px 10px;
+    box-shadow: #7B02CB 1px -1px 10px;
+}
+
+.principal h1{
+    color: $color__font-main-h1;
 }
 
 .formation {
@@ -23,7 +27,7 @@
     
     &__cours {
         background-color: $color__background-cours;
-        box-shadow: rgb(57, 64, 68) 1px -1px 10px;
+        box-shadow: #7B02CB 3px -3px 10px;
         border-radius: 5px;
         margin: 10px;
         display: flex;
@@ -53,7 +57,7 @@
 
 .cours__sigle {
     font-size: 1.2rem;
-    color: rgb(138, 83, 83);
+    color: #7163C2;
     margin: 0;
 }
 

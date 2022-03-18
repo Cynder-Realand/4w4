@@ -1,17 +1,14 @@
-
-
-
 .site__footer{
   display: flex;
   flex-direction: column;
 &__colonne{
-
+    color: $color__font-site-footer;
     display: flex;
     justify-content: space-between;
     section{
       display: flex;
       flex-direction: column;
-      border: 1px solid #ddd;
+      border: 3.5px solid #FF2C91;
       flex: 0 0 30%;
     }
     .footer__article{
