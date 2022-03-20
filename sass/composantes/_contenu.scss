@@ -5,20 +5,20 @@
     padding: 10px 15px;
     background-color:$color__background-main;
     border-radius: 5px;
-    box-shadow: #7B02CB 1px -1px 10px;
+    box-shadow: $color__box-shadow-main;
 
     &__firstPost{
         h2{
             color: $color__font-main-singlePost;
             font-family: $font__titre;
             font-size: 45px;
-            text-shadow: #FF2C91 3px -3px 5px;
+            text-shadow: $color__text-shadow-title;
         }
         p{
             font-family: $font__main;
             color: $color__font-main-contenu;
             font-size: 20px;
-            text-shadow: #000 3px -3px 5px;
+            text-shadow: $color__text-shadow-p;
         }
     }
 }
@@ -27,12 +27,12 @@
     color: $color__font-main-singlePost;
     font-family: $font__titre;
     font-size: 45px;
-    text-shadow: #FF2C91 3px -3px 5px;
+    text-shadow: $color__text-shadow-title;
     &__contenu{
         font-family: $font__main;
         color: $color__font-main-contenu;
         font-size: 20px;
-        text-shadow: #000 3px -3px 5px;
+        text-shadow: $color__text-shadow-p;
     }
 }
 
@@ -57,7 +57,7 @@
     
     &__cours {
         background-color: $color__background-cours;
-        box-shadow: #7B02CB 3px -3px 10px;
+        box-shadow: $color__box-shadow-cours;
         border-radius: 5px;
         margin: 10px;
         display: flex;
@@ -80,7 +80,7 @@
 
 .cours__sigle {
     font-size: 1.2rem;
-    color: #7163C2;
+    color: $color__font-sigle;
     margin: 0;
 }
 
