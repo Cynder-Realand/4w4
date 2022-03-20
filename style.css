@@ -448,7 +448,7 @@ COMPOSANTES
 }
 
 .formation__titre {
-  font-size: 2rem;
+  font-size: 3.5rem;
   color: #FFF;
   margin: 10px 0px;
   font-family: "Italianno";
@@ -606,6 +606,30 @@ COMPOSANTES
   align-items: center;
 }
 
+.footer__article {
+  font-size: 1.5rem;
+}
+
+.footer__adresse {
+  font-size: 1.5rem;
+}
+
+.footer__liens {
+  font-size: 1.5rem;
+}
+
+.footer__titre {
+  font-size: 4rem;
+}
+
+.footer__presentation {
+  font-size: 2.5rem;
+}
+
+.footer__author {
+  font-size: 2rem;
+}
+
 .site__footer {
   font-family: "Italianno";
   background-color: #0B2057;
@@ -634,6 +658,10 @@ COMPOSANTES
 
 .site__footer__menu__ul .menu-item a:hover svg {
   color: #8904CD;
+}
+
+.footer__recherche {
+  right: 0;
 }
 
 .footer__titre,
@@ -677,29 +705,62 @@ COMPOSANTES
 ANIMATION
 --------------------------------------------------------- */
 .animation {
-  display: flex;
-  justify-content: space-between;
-}
-
-.animation__bloc {
+  padding: 0;
+  margin: 0;
+  height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background-color: #1161f7;
-  color: #fff;
-  font-size: 3rem;
-  animation: anim-entete 1s forwards;
 }
 
-@keyframes anim-entete {
+.animation__lots {
+  position: relative;
+  display: flex;
+}
+
+.animation__checks {
+  list-style: none;
+}
+
+.animation__inputs[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 100px;
+  width: 100px;
+  z-index: 100;
+}
+
+.animation__inputs[type="checkbox"]:checked ~ div {
+  box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.05), inset 4px 4px 6px rgba(0, 0, 0, 0.2);
+  color: #FF2C91;
+  text-shadow: 0 0 15px #FF2C91, 0 0 25px #FF2C91;
+  animation: glow 1.5s linear infinite;
+}
+
+.animation__letters {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  background: #18191f;
+  color: #7163C2;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+  cursor: pointer;
+  margin: 0 4px;
+  border-radius: 20px;
+  box-shadow: -1px -1px 4px rgba(255, 255, 255, 0.05), 4px 4px 6px rgba(0, 0, 0, 0.2), inset -1px -1px 4px rgba(255, 255, 255, 0.05), inset 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes glow {
   0% {
-    transform: translateY(-100vh);
+    filter: hue-rotate(0deg);
   }
   100% {
-    transform: translateY(0);
+    filter: hue-rotate(360deg);
   }
 }
 

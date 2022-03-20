@@ -1,6 +1,6 @@
 # Exrcice 2 - 4W4 - Conception d'interface et développement Web
 ### Auteur : Kyndra Dess
-### Date de remise : 25x février 2022
+### Date de remise : 20 mars 2022
 
 ```
 Cet exercice nous a permis d'introduire la structure d'un thème Wordpress. Voici la structure utilisée:

@@ -1,6 +1,7 @@
 .site__footer{
   display: flex;
   flex-direction: column;
+
 &__colonne{
     color: $color__font-site-footer;
     display: flex;
@@ -11,15 +12,7 @@
       border: 3.5px solid #FF2C91;
       flex: 0 0 30%;
     }
-    .footer__article{
-
-    }
-    .footer__lien{
-      
-    }
-    .footer__adresse{
-
-    }
+   
   }
   &__ligne{
     display: flex;
@@ -28,18 +21,31 @@
   }
 }
 
+.footer__article{
+font-size: 1.5rem;
+}
+.footer__adresse{
+font-size: 1.5rem;
+}
+.footer__liens{
+  font-size: 1.5rem;
+  }
 
+.footer__titre{
+font-size: 4rem;
+}
+.footer__presentation{
+font-size: 2.5rem;
+}
+.footer__author{
+font-size: 2rem;
+}
 
 
 .site__footer {
   font-family: $font__titre;
   background-color: $color__background-footer;
   padding: 15px;
-
-
-
-
-
 
   &__menu{ // .site__footer__menu
 
@@ -66,6 +72,10 @@
         }    
      }
   }
+}
+
+.footer__recherche{
+  right: 0;
 }
 
 .footer__titre,

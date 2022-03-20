@@ -2,15 +2,15 @@
     <!----première rangée de colonne---->
     <div class="site__footer__colonne">
         <section class="footer__article">
-            <h2>Titre 1</h2>
+            <h2>Ryomen Sukuna</h2>
             <?php get_sidebar('footer_colonne_1'); ?>
         </section>
         <section class="footer__adresse">
-            <h2>Titre 2</h2>
+            <h2>Collège de Maisonneuve</h2>
             <?php get_sidebar('footer_colonne_2'); ?>
         </section>
         <section class="footer__liens">
-            <h2>Titre 3</h2>
+            <h2>Liens</h2>
             <?php get_sidebar('footer_colonne_3'); ?>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil architecto ea nobis. Laborum cum voluptas
                 quibusdam voluptatibus dolores tempora fugiat iste exercitationem nihil, excepturi dolorem veritatis
