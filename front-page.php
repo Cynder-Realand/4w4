@@ -28,20 +28,16 @@
             <div class="animation__letters">A</div>
         </li>
     </ul>
-     <!-- <div class="animation__bloc">S</div>
-    <div class="animation__bloc">u</div>
-    <div class="animation__bloc">k</div>
-    <div class="animation__bloc">u</div>
-    <div class="animation__bloc">n</div>
-    <div class="animation__bloc">a</div> -->
 </section>
 
+    <section class="site__main__firstPost">
     <h1>---- Front-page.php ------</h1>
    <?php if (have_posts()): the_post(); ?>
-        <?php the_title() ?>
-        <?php the_content() ?>   
+        <h2><?php the_title() ?></h2>
+        <p><?php the_content() ?></p>   
   
    <?php endif ?>
-   
+   </section>
+
 </main>
 <?php get_footer() ?>

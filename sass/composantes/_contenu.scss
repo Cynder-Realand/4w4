@@ -1,11 +1,26 @@
 .site__main {
     font-family: $font__titre;
-    font-size: 30px;
+    font-size: 35px;
     color: $color__font-main-title;
     padding: 10px 15px;
     background-color:$color__background-main;
     border-radius: 5px;
     box-shadow: #7B02CB 1px -1px 10px;
+
+    &__firstPost{
+        h2{
+            color: $color__font-main-singlePost;
+            font-family: $font__titre;
+            font-size: 45px;
+            text-shadow: #FF2C91 3px -3px 5px;
+        }
+        p{
+            font-family: $font__main;
+            color: $color__font-main-contenu;
+            font-size: 20px;
+            text-shadow: #000 3px -3px 5px;
+        }
+    }
 }
 
 .article{

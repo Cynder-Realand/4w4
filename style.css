@@ -416,12 +416,26 @@ COMPOSANTES
 --------------------------------------------------------- */
 .site__main {
   font-family: "Italianno";
-  font-size: 30px;
+  font-size: 35px;
   color: #FFF;
   padding: 10px 15px;
   background-color: #FFBEB0;
   border-radius: 5px;
   box-shadow: #7B02CB 1px -1px 10px;
+}
+
+.site__main__firstPost h2 {
+  color: #FFF;
+  font-family: "Italianno";
+  font-size: 45px;
+  text-shadow: #FF2C91 3px -3px 5px;
+}
+
+.site__main__firstPost p {
+  font-family: "Times New Roman", Times, serif;
+  color: #FFF;
+  font-size: 20px;
+  text-shadow: #000 3px -3px 5px;
 }
 
 .article {
@@ -523,6 +537,7 @@ COMPOSANTES
 
 .util__liens {
   display: flex;
+  justify-content: space-between;
 }
 
 .util__liens a svg {
@@ -699,6 +714,25 @@ COMPOSANTES
 
 .recherche__button svg {
   color: #D96C94;
+}
+
+/*
+ *  STYLE 7
+ */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #9c90dd;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #9c90dd;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.44, #F7C6CE), color-stop(0.72, #E7A5BD), color-stop(0.86, #4B1A48));
 }
 
 /* ---------------------------------------------------------

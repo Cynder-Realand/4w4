@@ -1,4 +1,4 @@
-# Exrcice 2 - 4W4 - Conception d'interface et développement Web
+# TP1 - 4W4 - Conception d'interface et développement Web
 ### Auteur : Kyndra Dess
 ### Date de remise : 20 mars 2022
 
