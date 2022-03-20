@@ -656,6 +656,7 @@ COMPOSANTES
   display: flex;
   list-style-type: none;
   justify-content: center;
+  font-size: 25px;
 }
 
 .site__footer__menu__ul .menu-item {
@@ -722,13 +723,13 @@ COMPOSANTES
  */
 ::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  background-color: #9c90dd;
+  background-color: rgba(156, 144, 221, 0.5);
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar {
   width: 10px;
-  background-color: #9c90dd;
+  background-color: rgba(156, 144, 221, 0.5);
 }
 
 ::-webkit-scrollbar-thumb {
