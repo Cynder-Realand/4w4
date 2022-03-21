@@ -26,8 +26,8 @@
         <section class="footer__sociaux">
         <?php get_sidebar('footer_ligne_1'); ?>
         </section>
-        <section class="footer__copyright"></section>
-        <section class="footer__auteur"></section>
+        <section class="footer__copyright">Copyright © 2022 - Collège de Maisonneuve. Tous droits réservés.</section>
+        <section class="footer__auteur">Kyndra Dess</section>
     </div>
 
 

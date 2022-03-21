@@ -646,6 +646,16 @@ COMPOSANTES
   font-size: 2rem;
 }
 
+.footer__copyright {
+  font-size: 2rem;
+  color: aliceblue;
+}
+
+.footer__auteur {
+  font-size: 2rem;
+  color: aliceblue;
+}
+
 .site__footer {
   font-family: "Italianno";
   background-color: #0B2057;
